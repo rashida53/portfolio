@@ -1,0 +1,78 @@
+.background-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-title {
+    font-family: 'Playfair Display',
+        serif;
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.intro-text {
+    font-family: 'Playfair Display',
+        serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+}
+
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project-title {
+    font-family: 'Playfair Display',
+        serif;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.projects-container {
+    padding: 60px;
+}
+
+.contact-text {
+    font-family: 'Playfair Display',
+        serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.box-two {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.zoom {
+    padding: 20px;
+    background-color: white;
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(0.9);
+}
