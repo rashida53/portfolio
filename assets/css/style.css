@@ -35,6 +35,10 @@ body {
 
 .navbar {
     position: absolute;
+    border-bottom: solid 1px #01f9c6;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
     top: 0;
 }
 
